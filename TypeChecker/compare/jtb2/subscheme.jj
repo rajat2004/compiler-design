@@ -1,0 +1,87 @@
+/***************************************************************************
+ * subscheme.jj
+ *
+ * A tiny subset grammar of Scheme involving expressions.  This is a
+ * slightly modified grammar file which places declarations in a production
+ * of their own rather than having them as part of an Expression.
+ *
+ * Author: Kevin Tao (taokr@cs.purdue.edu)
+ ***************************************************************************/
+
+/* RCS Information
+ * $Id: subscheme.jj,v 1.3 1998/02/12 21:09:28 ktao Exp $
+ *
+ * $Log: subscheme.jj,v $
+ * Revision 1.3  1998/02/12 21:09:28  ktao
+ * -Updated for JavaCC 0.7.
+ *
+ * Revision 1.2  1997/11/16 20:45:28  ktao
+ * Added comments and RCS log info
+ *
+ */
+
+PARSER_BEGIN(SubScheme2)
+import visitor.FreeVarFinder;
+
+public class SubScheme2 {
+
+  public static void main(String args[]) {
+    SubScheme2 parser;
+
+    System.out.println("Reading from standard input. . .");
+    parser = new SubScheme2(System.in);
+
+    try {
+      Node root = parser.Unit();
+      System.out.println("Parsed successfully.");
+      root.accept(new FreeVarFinder());
+    } catch (ParseException e) {
+      System.out.println(e.getMessage());
+      System.out.println("Encountered errors during parse.");
+    }
+  }
+
+}
+PARSER_END(SubScheme2)
+
+SKIP : /* WHITE SPACE */
+{
+  " "
+| "\t"
+| "\n"
+| "\r"
+| "\f"
+}
+
+TOKEN : {
+   < LAMBDA : "lambda" >
+ |
+   < IDENT  : <LETTER> (<LETTER>|<DIGIT>)* >
+|
+   < #LETTER: ["_","a"-"z","A"-"Z"] >
+|
+   < #DIGIT : ["0"-"9"] >
+}
+
+void Unit() : {}
+{
+   ( Exp() )+ <EOF>
+}
+
+void Exp() : {}
+{
+   <IDENT>
+ |
+   LOOKAHEAD(2) LambdaDecl()
+ |
+   LOOKAHEAD(2) "(" Exp() ( Exp() )* ")"
+ |
+   "0"
+ |
+   "(" "+" Exp() "1" ")"
+}
+
+void LambdaDecl() : {}
+{
+   "(" "lambda" "(" ( <IDENT> )* ")" Exp() ")"
+}

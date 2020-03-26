@@ -1,0 +1,2 @@
+(lambda (function1 arg1 arg2 function2)
+   (function2 (+ (function1 arg1 arg2) 1) freevar))

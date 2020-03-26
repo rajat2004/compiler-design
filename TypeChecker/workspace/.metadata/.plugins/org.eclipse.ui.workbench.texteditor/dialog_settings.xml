@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="offset"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="offset"/>
+			<item value="registerTypes"/>
+			<item value="idasatype"/>
+			<item value="look_up_identifier"/>
+			<item value="returnPrimaryExpr"/>
+			<item value="get_method_vtable_position"/>
+			<item value="Expression"/>
+			<item value="-?\\d+"/>
+			<item value="class_scope"/>
+			<item value="int"/>
+			<item value="giveLLVMtype"/>
+			<item value="get_number_of_methods"/>
+			<item value="get_numbr_of_methods"/>
+			<item value="curr_mthd"/>
+			<item value="type"/>
+		</list>
+		<list key="replacehistory">
+			<item value="stmtType"/>
+			<item value="tempStartComparator"/>
+			<item value="labelStack"/>
+			<item value="push_exp"/>
+			<item value="base"/>
+			<item value="in_mthd"/>
+			<item value="clss"/>
+			<item value="inHeap"/>
+			<item value="class_var_lval"/>
+			<item value="classextd"/>
+			<item value="fnparamhm"/>
+			<item value="first_pass_done"/>
+			<item value="vars_in_scope"/>
+			<item value="IdAsaType"/>
+			<item value="System.out.println"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="137"/>
+		<item key="DIALOG_Y_ORIGIN" value="316"/>
+		<item key="DIALOG_WIDTH" value="627"/>
+		<item key="DIALOG_HEIGHT" value="520"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+</section>

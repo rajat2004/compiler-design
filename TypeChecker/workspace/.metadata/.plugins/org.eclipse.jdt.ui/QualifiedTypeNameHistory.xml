@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="visitor.TypeChecker"/>
+<fullyQualifiedTypeName name="visitor.GJDepthFirst"/>
+<fullyQualifiedTypeName name="visitor.GJNoArguDepthFirst"/>
+<fullyQualifiedTypeName name="visitor.IR_generator"/>
+<fullyQualifiedTypeName name="visitor.Obj2"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="visitor.microIR_gen"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="visitor.BasicBlock"/>
+<fullyQualifiedTypeName name="syntaxtree.Procedure"/>
+<fullyQualifiedTypeName name="visitor.Procedure"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="visitor.tempComparator"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="visitor.tempEndComparator"/>
+<fullyQualifiedTypeName name="visitor.ProcedureClass"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="visitor.tempStartComparator"/>
+<fullyQualifiedTypeName name="visitor.generateRA"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="visitor.Liveliness"/>
+<fullyQualifiedTypeName name="syntaxtree.Temp"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="visitor.TempLiveRange"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.Bool"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="visitor.MIPSgen"/>
+<fullyQualifiedTypeName name="syntaxtree.NodeToken"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="visitor.LLVM_generator"/>
+<fullyQualifiedTypeName name="visitor.class_info"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="visitor.MethodData"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>
