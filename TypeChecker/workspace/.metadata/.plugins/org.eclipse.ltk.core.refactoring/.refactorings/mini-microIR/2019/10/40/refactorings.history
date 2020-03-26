@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;mini-microIR/src/visitor/microIR3&apos; to &apos;microIR3.java&apos;" description="Rename resource &apos;microIR3&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/visitor/microIR3" name="microIR3.java" stamp="1570282964586" updateReferences="true"/>
-</session>
